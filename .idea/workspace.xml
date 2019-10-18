@@ -2,9 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ab46b6b-6d57-4b25-9b4e-8d1c7c250c56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/bombed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/flaged.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/inform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/nobomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/opened.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/zero.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sweeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sweeper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaSweeper.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +52,9 @@
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\IdeaProjects\Sweeper\res" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -110,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571395982459</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="0.0.3 add new data in JavaSweeper.class">
+      <created>1571400510386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571400510386</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,7 +144,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -129,6 +157,7 @@
     <MESSAGE value="update .gitignore" />
     <MESSAGE value="0.0.1 expand JavaSweeper.class" />
     <MESSAGE value="0.0.2 refactoring JavaSweeper.class" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.2 refactoring JavaSweeper.class" />
+    <MESSAGE value="0.0.3 add new data in JavaSweeper.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.3 add new data in JavaSweeper.class" />
   </component>
 </project>
