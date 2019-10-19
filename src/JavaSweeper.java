@@ -1,6 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
 
+import sweeper.Box;
+import sweeper.Coord;
+import sweeper.Ranges;
+
 public class JavaSweeper extends JFrame {
 
     private final int IMAGE_SIZE = 50;
@@ -13,6 +17,8 @@ public class JavaSweeper extends JFrame {
     }
 
     private JavaSweeper() {
+        Ranges.setSize(new Coord(COLS,ROWS));
+        setImages();
         initPanel();
         initFrame();
     }
@@ -25,11 +31,14 @@ public class JavaSweeper extends JFrame {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                g.drawImage(getImage("bomb"),0,0,this);
-                g.drawImage(getImage("num1"),IMAGE_SIZE,0,this);
+                for (Box box : Box.values()) {
+                    Coord coord = new Coord(box.ordinal() * IMAGE_SIZE, 0);
+                    g.drawImage((Image) box.image, coord.x, coord.y, this);
+                }
             }
         };
-        panel.setPreferredSize(new Dimension(COLS * IMAGE_SIZE, ROWS * IMAGE_SIZE));//задаем размеры панели
+        panel.setPreferredSize(new Dimension(Ranges.getSize().x * IMAGE_SIZE,
+                                            Ranges.getSize().y * IMAGE_SIZE));//задаем размеры панели
         add(panel);//добавляем панель
     }
 
@@ -40,10 +49,18 @@ public class JavaSweeper extends JFrame {
         setResizable(false);//объявляем окно неизменяемым по размеру
         pack();//изменяет размер формы
         setLocationRelativeTo(null);//устанавливает форму по центру
+        setIconImage(getImage("icon"));
     }
 
-    private Image getImage(String name){
-         ImageIcon icon = new ImageIcon("res/img/"+ name+".png");
-         return icon.getImage();
+    private void setImages() {
+        for (Box box : Box.values()) {
+            box.image = getImage(box.name().toLowerCase());
+        }
+    }
+
+    private Image getImage(String name) {
+        String fileName = "img/" + name + ".png";
+        ImageIcon icon = new ImageIcon(getClass().getResource(fileName));// инициализируем и задаем картинку
+        return icon.getImage();//возвращяем картинку
     }
 }
