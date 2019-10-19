@@ -13,7 +13,7 @@ public class Ranges {
 
     public static void setSize(Coord _size) {
         size = _size;
-        allCoords = new ArrayList<Coord>();
+        allCoords = new ArrayList<>();//<Coord>
         for (int y = 0; y < size.y; y++) {
             for (int x = 0; x < size.x; x++) {
                 allCoords.add(new Coord(x,y));

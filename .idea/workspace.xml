@@ -7,15 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab46b6b-6d57-4b25-9b4e-8d1c7c250c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Coord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Ranges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sweeper/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/img/flaged.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/img/flagged.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaSweeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sweeper/Ranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Ranges.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571424459156</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="0.0.5 add Coord.class/Ranges.class and modified">
+      <created>1571490188962</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571490188962</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +169,7 @@
     <MESSAGE value="0.0.2 refactoring JavaSweeper.class" />
     <MESSAGE value="0.0.3 add new data in JavaSweeper.class" />
     <MESSAGE value="0.0.4 add res and modified JavaSweeper.class" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.4 add res and modified JavaSweeper.class" />
+    <MESSAGE value="0.0.5 add Coord.class/Ranges.class and modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.5 add Coord.class/Ranges.class and modified" />
   </component>
 </project>
