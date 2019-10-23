@@ -7,10 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab46b6b-6d57-4b25-9b4e-8d1c7c250c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaSweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sweeper/Ranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Ranges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sweeper/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Bomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sweeper/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Box.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +146,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571490188962</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="0.0.6 add facade class Game">
+      <created>1571493062117</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571493062117</updated>
+    </task>
+    <task id="LOCAL-00010" summary="0.0.7 add class Matrix. modified class Game &amp; Ranges">
+      <created>1571835296582</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571835296582</updated>
+    </task>
+    <task id="LOCAL-00011" summary="0.0.8 add class Bomb. modified class Game&amp;Coord&amp;Ranges&amp;JavaSweeper">
+      <created>1571839366643</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571839366643</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +191,9 @@
     <MESSAGE value="0.0.3 add new data in JavaSweeper.class" />
     <MESSAGE value="0.0.4 add res and modified JavaSweeper.class" />
     <MESSAGE value="0.0.5 add Coord.class/Ranges.class and modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.5 add Coord.class/Ranges.class and modified" />
+    <MESSAGE value="0.0.6 add facade class Game" />
+    <MESSAGE value="0.0.7 add class Matrix. modified class Game &amp; Ranges" />
+    <MESSAGE value="0.0.8 add class Bomb. modified class Game&amp;Coord&amp;Ranges&amp;JavaSweeper" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.8 add class Bomb. modified class Game&amp;Coord&amp;Ranges&amp;JavaSweeper" />
   </component>
 </project>

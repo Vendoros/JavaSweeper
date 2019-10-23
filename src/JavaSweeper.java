@@ -47,13 +47,14 @@ public class JavaSweeper extends JFrame {
     }
 
     private void initFrame() {
+        pack();//изменяет размер формы
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);//выход из программы при закрытии
         setTitle("MineSweeper");//устанавливаем заголовок окна
         setVisible(true);//делаем окно видимым
         setResizable(false);//объявляем окно неизменяемым по размеру
         setLocationRelativeTo(null);//устанавливает форму по центру
         setIconImage(getImage("icon"));
-        pack();//изменяет размер формы
+
     }
 
     private void setImages() {
