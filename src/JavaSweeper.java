@@ -16,6 +16,7 @@ public class JavaSweeper extends JFrame {
     private final int ROWS = 9;
     private final int BOMBS = 10;
     private JPanel panel;
+    private JLabel label;
 
     public static void main(String[] args) {
         new JavaSweeper();
@@ -25,11 +26,17 @@ public class JavaSweeper extends JFrame {
         game = new Game(COLS, ROWS, BOMBS);
         game.start();
         setImages();
+        initLabel();
         initPanel();
         initFrame();
     }
 
-//https://youtu.be/shM-eFH9aGw?t=8960
+    private void initLabel(){
+        label = new JLabel("Welcome");
+        add (label, BorderLayout.SOUTH);
+    }
+
+//https://youtu.be/shM-eFH9aGw?t=11283
 
     private void initPanel() {
         panel = new JPanel()//инициализируем панель
@@ -59,6 +66,8 @@ public class JavaSweeper extends JFrame {
                 if (e.getButton() == MouseEvent.BUTTON3) {
                     game.pressRightButton(coord);
                 }
+
+                label.setText(getMessage());
                 panel.repaint();
             }
         });
@@ -66,6 +75,16 @@ public class JavaSweeper extends JFrame {
         panel.setPreferredSize(new Dimension(Ranges.getSize().x * IMAGE_SIZE,
                 Ranges.getSize().y * IMAGE_SIZE));//задаем размер панели
         add(panel);//добавляем панель
+    }
+
+    private String getMessage() {
+
+        switch (game.getState()){
+            case PLAYED: return "Think twice";
+            case BOMBED: return "You Lose! ha-ha";
+            case WINNER: return "You Winner!";
+            default: return "";
+        }
     }
 
     private void initFrame() {
