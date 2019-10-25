@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="AUTOSCROLL_TO_SOURCE" value="true" />
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="Sweeper:jar" />
@@ -7,16 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab46b6b-6d57-4b25-9b4e-8d1c7c250c56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sweeper/Flag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaSweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sweeper/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Bomb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sweeper/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sweeper/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Game.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Temp" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Sweeper" />
@@ -37,9 +45,11 @@
   <component name="ProjectId" id="1SN51uJLyz3uMOdVuVy4khCIHR7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="C:/Temp" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -167,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571839366643</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0.0.9 modified class Bomb&amp;Box&amp;JavaSweeper">
+      <created>1571845871369</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571845871369</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +211,7 @@
     <MESSAGE value="0.0.6 add facade class Game" />
     <MESSAGE value="0.0.7 add class Matrix. modified class Game &amp; Ranges" />
     <MESSAGE value="0.0.8 add class Bomb. modified class Game&amp;Coord&amp;Ranges&amp;JavaSweeper" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.8 add class Bomb. modified class Game&amp;Coord&amp;Ranges&amp;JavaSweeper" />
+    <MESSAGE value="0.0.9 modified class Bomb&amp;Box&amp;JavaSweeper" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.9 modified class Bomb&amp;Box&amp;JavaSweeper" />
   </component>
 </project>

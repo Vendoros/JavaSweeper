@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 import sweeper.Box;
 import sweeper.Coord;
@@ -8,7 +10,7 @@ import sweeper.Ranges;
 
 public class JavaSweeper extends JFrame {
 
-    private Game game;
+    private final Game game;
     private final int IMAGE_SIZE = 50;
     private final int COLS = 9;
     private final int ROWS = 9;
@@ -20,14 +22,14 @@ public class JavaSweeper extends JFrame {
     }
 
     private JavaSweeper() {
-        game = new Game(COLS, ROWS,BOMBS);
+        game = new Game(COLS, ROWS, BOMBS);
         game.start();
         setImages();
         initPanel();
         initFrame();
     }
 
-//https://youtu.be/shM-eFH9aGw?t=5481
+//https://youtu.be/shM-eFH9aGw?t=8960
 
     private void initPanel() {
         panel = new JPanel()//инициализируем панель
@@ -41,8 +43,28 @@ public class JavaSweeper extends JFrame {
                 }
             }
         };
+
+        panel.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent e) {
+                int x = e.getX() / IMAGE_SIZE;
+                int y = e.getY() / IMAGE_SIZE;
+                Coord coord = new Coord(x, y);
+                if (e.getButton() == MouseEvent.BUTTON1) {
+                    game.pressLeftButton(coord);
+                }
+                if (e.getButton() == MouseEvent.BUTTON2) {
+                    game.start();
+                }
+                if (e.getButton() == MouseEvent.BUTTON3) {
+                    game.pressRightButton(coord);
+                }
+                panel.repaint();
+            }
+        });
+
         panel.setPreferredSize(new Dimension(Ranges.getSize().x * IMAGE_SIZE,
-                Ranges.getSize().y * IMAGE_SIZE));//задаем размеры панели
+                Ranges.getSize().y * IMAGE_SIZE));//задаем размер панели
         add(panel);//добавляем панель
     }
 
