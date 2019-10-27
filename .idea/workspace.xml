@@ -10,11 +10,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ab46b6b-6d57-4b25-9b4e-8d1c7c250c56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sweeper/GameState.java" afterDir="false" />
+    <list default="true" id="2ab46b6b-6d57-4b25-9b4e-8d1c7c250c56" name="Default Changelist" comment="0.1.1 modified readme.md">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaSweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sweeper/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <list id="de31af9e-d923-4766-ba2c-9eb4ad589115" name="0.1.0 release alfa" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/bombed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/flagged.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/inform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/nobomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/num1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/num2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/num3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/num4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/num5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/num6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/num7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/num8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/opened.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Sweeper/img/zero.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +114,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2ab46b6b-6d57-4b25-9b4e-8d1c7c250c56" name="Default Changelist" comment="" />
+      <changelist id="de31af9e-d923-4766-ba2c-9eb4ad589115" name="0.1.0 release alfa" comment="" />
       <created>1571391000096</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -192,7 +211,35 @@
       <option name="project" value="LOCAL" />
       <updated>1572010612324</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="0.0.11 create class GameState">
+      <created>1572013156422</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1572013156422</updated>
+    </task>
+    <task id="LOCAL-00015" summary="0.1.0 release alfa">
+      <created>1572161742582</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1572161742582</updated>
+    </task>
+    <task id="LOCAL-00016" summary="0.1.0 release alfa">
+      <created>1572161805351</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1572161805351</updated>
+    </task>
+    <task id="LOCAL-00017" summary="0.1.1 modified readme.md">
+      <created>1572161923200</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1572161923200</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +268,9 @@
     <MESSAGE value="0.0.8 add class Bomb. modified class Game&amp;Coord&amp;Ranges&amp;JavaSweeper" />
     <MESSAGE value="0.0.9 modified class Bomb&amp;Box&amp;JavaSweeper" />
     <MESSAGE value="0.0.10 create class Flag" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.10 create class Flag" />
+    <MESSAGE value="0.0.11 create class GameState" />
+    <MESSAGE value="0.1.0 release alfa" />
+    <MESSAGE value="0.1.1 modified readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1.1 modified readme.md" />
   </component>
 </project>
