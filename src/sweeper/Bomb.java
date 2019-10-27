@@ -48,4 +48,8 @@ class Bomb {
             }
         }
     }
+
+    int getTotalBombs() {
+        return totalBombs;
+    }
 }

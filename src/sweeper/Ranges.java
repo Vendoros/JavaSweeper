@@ -7,7 +7,7 @@ public class Ranges {
 
     private static Coord size;
     private static ArrayList<Coord> allCoords;
-    private static Random random = new Random();
+    private static final Random random = new Random();
 
     public static Coord getSize() {
         return size;

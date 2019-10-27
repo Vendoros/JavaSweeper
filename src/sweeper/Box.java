@@ -20,6 +20,10 @@ public enum Box {
 
     public Object image;
 
+    int getNumber(){
+        return this.ordinal();
+    }
+
     Box getNextNumberBox() {
         return Box.values()[this.ordinal() + 1];
     }

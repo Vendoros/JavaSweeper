@@ -12,8 +12,11 @@ public class JavaSweeper extends JFrame {
 
     private final Game game;
     private final int IMAGE_SIZE = 50;
+    @SuppressWarnings("FieldCanBeLocal")
     private final int COLS = 9;
+    @SuppressWarnings("FieldCanBeLocal")
     private final int ROWS = 9;
+    @SuppressWarnings("FieldCanBeLocal")
     private final int BOMBS = 10;
     private JPanel panel;
     private JLabel label;
@@ -35,8 +38,6 @@ public class JavaSweeper extends JFrame {
         label = new JLabel("Welcome");
         add (label, BorderLayout.SOUTH);
     }
-
-//https://youtu.be/shM-eFH9aGw?t=11283
 
     private void initPanel() {
         panel = new JPanel()//инициализируем панель
