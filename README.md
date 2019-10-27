@@ -4,6 +4,8 @@
  
  Реализация знаменитой игры - сапер. 
  
- left mouse bottom open cell\n
- right mouse bottom set/clean flag\n
- middle mouse bottom restart\n
+ left mouse bottom open cell
+ 
+ right mouse bottom set/clean flag
+ 
+ middle mouse bottom restart
